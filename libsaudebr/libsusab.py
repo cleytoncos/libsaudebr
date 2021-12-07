@@ -1,5 +1,6 @@
 import random
-from sigtap import sigtap
+from sigtap import sigtap_outros_desc_list as sigtap_outros_desc_list
+from sigtap import sigtap_outros_cod_list as sigtap_outros_cod_list
 
 def sigtap_outros_desc():
     sigtap = random.choice(sigtap_outros_desc_list)
@@ -75,7 +76,3 @@ def cns():
             new_cns = new_cns + "000" + str(dv)
         cns_valido = valida_cns(new_cns)
     return new_cns
-
-
-
-sigtap_outros_desc()
