@@ -1,13 +1,13 @@
 import random
-from sigtap import sigtap_outros_desc_list as sigtap_outros_desc_list
-from sigtap import sigtap_outros_cod_list as sigtap_outros_cod_list
+from sigtap_list import ab_sigtap_outros_desc_list as ab_sigtap_desc
+from sigtap_list import ab_sigtap_outros_cod_list as ab_sigtap_cod
 
-def sigtap_outros_desc():
-    sigtap = random.choice(sigtap_outros_desc_list)
+def ab_sigtap_outros_desc():
+    sigtap = random.choice(ab_sigtap_desc)
     return sigtap
 
-def sigtap_outros_cod():
-    sigtap = random.choice(sigtap_outros_cod_list)
+def ab_sigtap_outros_cod():
+    sigtap = random.choice(ab_sigtap_cod)
     return sigtap
 
 def valida_cns(cns):

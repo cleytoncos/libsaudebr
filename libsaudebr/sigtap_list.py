@@ -1,4 +1,4 @@
-sigtap_outros_desc_list = [
+ab_sigtap_outros_desc_list = [
     'ATIVIDADE EDUCATIVA / ORIENTAÇÃO EM GRUPO NA ATENÇÃO PRIMÁRIA',
     'PRÁTICA CORPORAL / ATIVIDADE FÍSICA EM GRUPO',
     'PREVENÇÃO DA COVID-19 NAS ESCOLAS',
@@ -151,7 +151,7 @@ sigtap_outros_desc_list = [
     'CONCLUSÃO DA ASSISTÊNCIA PRE-NATAL (INCENTIVO)'
 ]
 
-sigtap_outros_cod_list = [
+ab_sigtap_outros_cod_list = [
     '0101010010',
     '0101010036',
     '0101010095',
